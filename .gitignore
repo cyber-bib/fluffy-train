@@ -1,0 +1,5 @@
+# Ignore VsCode directory
+.vscode/
+
+# Ignore build directory
+[Bb]uild/
