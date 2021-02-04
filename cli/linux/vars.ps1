@@ -1,8 +1,11 @@
 $RootDir = ("${PSScriptRoot}" | Split-Path -Parent)
+$RootDir = ("${RootDir}" | Split-Path -Parent)
 
 $ProjectName = ("${RootDir}" | Split-Path -Leaf)
 $BuildDir = "${RootDir}/build"
 $SourceDir = "${RootDir}"
+
+$SystemName = "linux"
 
 # Write-Host "${ProjectName}"
 # Write-Host "`troot: $RootDir"
