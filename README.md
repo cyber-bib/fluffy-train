@@ -32,8 +32,16 @@
 		cmake --version
 		doxygen --version
 
-## Powershell scripts
-- Run the following command to run cmake project, build and execute the runable programa. Best of luck!!!
+    - Run the following command to run cmake project, build and execute the runable programa. Best of luck!!!
 	>Powershell
 
 		./scripts/config-build-run.ps1
+11. Clone the following repos in for preferred folder (ideally a development folder near you C drive if you are using Windows): [VTK](https://gitlab.kitware.com/vtk/vtk), [Emscripten](https://github.com/emscripten-core/emsdk.git)
+	> Powershell
+
+		git clone https://gitlab.kitware.com/vtk/vtk.git
+		git clone https://github.com/emscripten-core/emsdk.git
+
+	> Use cmake to build the libraries above
+
+		
