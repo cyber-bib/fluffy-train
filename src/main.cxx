@@ -1,15 +1,13 @@
-#include <iostream>
+#include "viewport.hxx"
 
 #pragma region main {
 	int
 	main (
 		int argc,
-		char* arg[]
+		char* argv[]
 	) {
-		std::cout << "A very boring hello world\n";
+		worm::viewport worm_canvas;
 
-		std::cout << "End of Program. (Press any key to continue... )" << std::endl;
-		std::cin.get();
 		return 0;
 	}
 #pragma endregion } main
